@@ -1,0 +1,29 @@
+body {
+    background: #f8f9fa;
+  }
+  .main-bg {
+    min-height: 100vh;
+  }
+  .card-img-top {
+    height: 180px;
+    object-fit: cover;
+  }
+  .bg-gradient-primary {
+    background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  }
+  .sticky-top {
+    position: sticky;
+    top: 1rem;
+  }
+  .cart-sidebar {
+    max-height: 80vh;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-scroll-area {
+    overflow-y: auto;
+    max-height: 60vh; /* Adjust as needed */
+    padding-right: 8px; /* For scrollbar space */
+  }
